@@ -56,7 +56,7 @@ stages:
         action: 'Deploy to IoT Edge devices'
         deploymentFilePath: '$(System.DefaultWorkingDirectory)/config/deployment.json'
         azureSubscription: 'Suscripción de Visual Studio Professional(e00db121-05ba-4283-97d3-42748c5042ee)'
-        iothubname: 'myIoTHubjdf123'
+        iothubname: 'myiothubjdf123'
         deploymentid: '$(System.TeamProject)-devops-deployment'
         priority: '0'
         deviceOption: 'Single Device'
